@@ -1,12 +1,12 @@
-body{
-    background-color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-    padding:10px;
+/*Estilizado enlaces*/
+a:hover{
+    color:blueviolet;
 }
 
 /*Cabecera de página*/
 header{
     display: flex;
+    justify-content: center;
 }
 
 header img{
@@ -17,7 +17,7 @@ header img{
 /*Para el menu principal*/
 nav ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     padding: 10px;
     text-align: center;
@@ -32,6 +32,23 @@ nav ul a{
 }
 
 /*Para el contenido de la pagina*/
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
+
+body li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form{
+    font-weight: bold;
+}
+
+legend{
+    font-size: 18px;
+}
 
 /*Para el footer de la pagina*/
 footer{
@@ -48,7 +65,7 @@ footer{
     border: 2px solid lightgrey;
 }
 
-/*Para tablas de yacimientos*/
+/*Para las tablas de las páginas (ej. lista yacimientos)*/
 table{
     background-color: rgb(189, 235, 255);
     border: 1px solid rgb(135, 135, 135);
@@ -56,24 +73,22 @@ table{
     text-align: center;
 }
 
+th{
+    padding: 10px;
+}
+
 td{
-    padding: 3px;
+    padding: 5px;
 }
 
 td:nth-child(1){
     font-weight: bold;
 }
 
-
 tr:nth-child(odd){
     background-color: rgb(211, 243, 243);
 }
 
-/*Para los iframes de mapas*/
-iframe{
-    width: 600px;
-    height: 450px;
-}
 
 /*FALTA RESPONSIVE WEB DESIGN*/
 

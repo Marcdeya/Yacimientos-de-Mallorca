@@ -40,19 +40,29 @@
         <h2>Buzón de sugerencias</h2>
         <article>
             <h3>Escribe tus sugerencias, te escucharemos</h3>
-            <!--FORM DE SUGERENCIAS-- ARREGLAR FORMULARIO-->
-            FALTA ARREGLAR EL FORMULARIO
+            <p><b>Ten en cuenta los siguientes consejos:</b></p>
+            <ol>
+                <li>Se claro y conciso.</li>
+                <li>Evita las abreviaturas o mal uso de gramática y ortografía.</li>
+                <li>Evita insultos, amenazas o lenguaje ofensivo, politico o racial.</li>
+                <li>Se recomienda un lenguaje formal y preferentemente en lenguaje castellano, catalán o inglés.</li>
+            </ol>
+            <!--FORM DE SUGERENCIAS-->
+            <p>Los campos con * son obligatorios:</p>
             <fieldset>
                 <legend>Formulario de sugerencias</legend>
-                <form method="get" action="https://mail.google.com/mail/u/1/?fs=1&to=dpascuallopez@cifpfbmoll.eu&tf=cm">
-                    Nombre:<br>
-                    <input type="text" name="Nombre"><br>
-                    Correo:<br>
-                    <input type="text" name="Correo"><br>
-                    Sugerencia:<br>
-                    <input type="text" name="comment" size="50"><br><br>
+                <form method="get" action="https://www.google.es">
+                    Nombre: <input type="text" name="nombre" placeholder="Jose"> 
+                    Apellidos: <input type="text" name="apellidos" placeholder="Navarro">
                     <br>
-                    <input type="submit" value="Enviar sugerencia"> <input type="reset" value="Limpiar sugerencia">
+                    Email*: <input type="text" name="email" placeholder="mail@domain" required>
+                    <br>
+                    <br>
+                    Sugerencia*
+                    <br>
+                    <textarea name="texto" cols="60" rows="10" placeholder="Inserta aqui tu sugerencia" required></textarea>
+                    <br>
+                    <input type="submit" value="Enviar formulario"> <input type="reset" value="Limpiar formulario">
                 </form>
             </fieldset>
             
