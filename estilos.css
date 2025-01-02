@@ -93,7 +93,7 @@ tr:nth-child(odd){
 
 /*RESPONSIVE WEB DESIGN*/
 /*360x800*/
-@media screen and (min-width:1px) and (max-width:360px) {
+@media screen and (max-width:360px) {
     body{
         max-width: 320px;
         margin-inline: auto;
