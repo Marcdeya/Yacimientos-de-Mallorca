@@ -12,6 +12,7 @@ header{
 header img{
     width: 150px;
     height: 85px;
+    margin: 5px;
 }
 
 /*Para el menu principal*/
@@ -22,6 +23,7 @@ nav{
     padding: 10px;
     text-align: center;
     background-color:beige;
+    margin: 5px;
 }
 
 nav a{
@@ -39,10 +41,11 @@ body{
     margin:5px;
 }
 
-body li{
+li{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/*Para los formularios*/
 form{
     font-weight: bold;
 }
@@ -68,9 +71,13 @@ footer{
 
 /*Para las tablas de las páginas (ej. lista yacimientos)*/
 table{
-    background-color: rgb(189, 235, 255);
     border: 1px solid rgb(135, 135, 135);
     border-collapse: collapse;
+}
+
+/*Especificaciones de la tabla de yacimientos*/
+#yacimientos{
+    background-color: rgb(189, 235, 255);
     text-align: center;
 }
 
@@ -94,15 +101,7 @@ tr:nth-child(odd){
 /*RESPONSIVE WEB DESIGN*/
 /*360x800*/
 @media screen and (max-width:360px) {
-    body{
-        max-width: 320px;
-        margin-inline: auto;
-    }
-
-    nav{
-        font-size: 1.2rem;
-    }
-
+    /*Adaptacion tamaño fuentes titulos,parrafos,listas*/
     h1{
         font-size: 2.5rem;
     }
@@ -119,27 +118,19 @@ tr:nth-child(odd){
         font-size: 1.5rem;
     }
 
+    /*Adaptacion de estructura general*/
+    body{
+        max-width: 360px;
+        margin-inline: auto;
+    }
+
     header{
         flex-direction: column;
     }
 
     nav{
         flex-direction: column;
-    }
-
-    section{
-        max-width: 320px;
-        margin-inline: auto;
-    }
-
-    footer{
-        margin-inline: auto;
-    }
-
-    table{
-        width: 300px;
-        margin-inline: auto;
-        font-size: 0.7rem;
+        font-size: 1.2rem;
     }
 
     footer{
@@ -151,6 +142,13 @@ tr:nth-child(odd){
         width: 90%;
     }
 
+    /*Adaptaciones especificas*/
+    #yacimientos{
+        margin-inline: auto;
+        font-size: 0.75rem;
+    }
+
+    /*Adaptaciones de formulario*/
     form{
         width: 300px;
     }
@@ -161,20 +159,8 @@ tr:nth-child(odd){
 }
 
 /*1024x720*/
-@media screen and (min-width:360px) and (max-width:1024px) {
-    header{
-        font-size: 0.8rem;
-    }
-
-    nav{
-        flex-direction: column;
-    }
-
-    body{
-        max-width: 800px;
-        margin-inline: auto;
-    }
-
+@media screen and (min-width:361px) and (max-width:1024px) {
+    /*Adaptacion tamaño fuentes titulos,parrafos,listas*/
     h1{
         font-size: 2rem;
     }
@@ -190,17 +176,27 @@ tr:nth-child(odd){
     p,li{
         font-size: 1.2rem;
     }
-    section{
+
+    /*Adaptacion de estructura general*/
+    body{
         max-width: 800px;
         margin-inline: auto;
-        font-size: 1.5rem;
+    }
+
+    header{
+        font-size: 0.8rem;
+    }
+
+    nav{
+        flex-wrap: wrap;
     }
 
     footer{
         margin-inline: auto;
     }
 
-    table{
+    /*Adaptaciones especificas*/
+    #yacimientos{
         max-width: 800px;
         margin-inline: auto;
         font-size: 1.2rem;
@@ -209,12 +205,8 @@ tr:nth-child(odd){
 
 /*1920x1080*/
 @media screen and (min-width:1024px){
+    /*Adaptacion de estructura general*/
     body{
-        max-width: 1024px;
-        margin-inline: auto;
-    }
-
-    section{
         max-width: 1024px;
         margin-inline: auto;
     }
@@ -224,7 +216,9 @@ tr:nth-child(odd){
         margin-inline: auto;
     }
 
-    table{
+    /*Adaptaciones especificas*/
+    #yacimientos{
         margin-inline: auto;
+        font-size: 1.2rem;
     }
 }
