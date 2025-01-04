@@ -3,6 +3,16 @@ a:hover{
     color:blueviolet;
 }
 
+#boton_arriba{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    padding: 10px;
+    background-color: red;
+    color:white;
+}
+
 /*Cabecera de página*/
 header{
     display: flex;
@@ -85,9 +95,10 @@ table{
 }
 
 /*Especificaciones de la tabla de yacimientos*/
-#yacimientos{
+.yacimientos{
     background-color: rgb(189, 235, 255);
     text-align: center;
+    width: 90%;
 }
 
 th{
@@ -152,7 +163,7 @@ tr:nth-child(odd){
     }
 
     /*Adaptaciones especificas*/
-    #yacimientos{
+    .yacimientos{
         margin-inline: auto;
         font-size: 0.75rem;
     }
@@ -206,7 +217,7 @@ tr:nth-child(odd){
     }
 
     /*Adaptaciones especificas*/
-    #yacimientos{
+    .yacimientos{
         max-width: 800px;
         margin-inline: auto;
         font-size: 1.2rem;
@@ -227,7 +238,7 @@ tr:nth-child(odd){
     }
 
     /*Adaptaciones especificas*/
-    #yacimientos{
+    .yacimientos{
         margin-inline: auto;
         font-size: 1.2rem;
     }

@@ -19,6 +19,7 @@
 </head>
 <body>
     <a id="inicio_pagina"></a>
+    <a href="#inicio_pagina" id="boton_arriba">Ir Arriba</a>
     <!--Cabera estándar para todas las páginas-->
     <header>
         <img src="img/logo.png" alt="Logotipo de la página">
@@ -37,7 +38,7 @@
         <a href="lista_yacimientos.html">/Tabla general/</a>
         <a href="lista_municipio.html">/Tabla municipio/</a>
         <a href="lista_epoca.html">/Tabla época/</a>
-        <a href="lista_municipio.html">/Tabla municipio/</a>
+        <a href="lista_tipo.html">/Tabla tipo/</a>
     </nav>
     <!--Aquí va el contenido de la página-->
     <section>
@@ -45,8 +46,19 @@
             <h2>Listado de yacimientos de Mallorca por época</h2>
             <p>Bienvenido al área de yacimientos, esta vez estan organizados en distintas tablas por época, si necesitas una tabla más especifica y ordenada como por municipio, época o tipo puedes pinchar en la barra de navegacion de arriba entre tipos de tabla.</p>
             <p>Una vez estés dentro de un yacimiento podrás pasar rapidamente entre uno y otro con la barra superior numerada de 1 a 30 indicando los yacimientos disponibles en la página web.</p>
+            <nav>
+                <a href="#talayotico">Talayótico</a> -
+                <a href="#naviforme">Naviforme</a> -
+                <a href="#romano">Romano</a> -
+                <a href="#dolmenico">Dolménico</a> -
+                <a href="#islamico">Islámico</a> -
+                <a href="#punico">Púnico</a> -
+                <a href="#neolitico">Neolítico</a> -
+                <a href="#paleocristiano">Paleocristiano</a>
+            </nav>
             <!--Tabla de yacimientos-->
-            <table id="yacimientos">
+            <h3><a id="talayotico">Talayótico</a></h3>
+            <table class="yacimientos">
                 <!---->
                 <tr>
                     <th>Nombre yacimiento</th>
@@ -56,194 +68,264 @@
                 </tr>
                 <!--yacimientos-->
                 <tr>
-                    <td><a href="yacimiento_almudaina.html">Almudaina</td>
-                    <td>Palma</td>
-                    <td>Islámico</td>
-                    <td>Puerta</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_ets_antigors.html">Ets Antigors</td>
+                    <td><a href="yacimiento_ets_antigors.html">Ets Antigors</a></td>
                     <td>Artà</td>
                     <td>Talayótico</td>
                     <td>Poblado</td>
                 </tr>
                 <tr>
-                    <td><a href="yacimiento_es_baulenes.html">Es Baulenes</td>
+                    <td><a href="yacimiento_es_baulenes.html">Es Baulenes</a></td>
                     <td>Porreres</td>
                     <td>Talayótico</td>
                     <td>Talayótico Circular</td>
                 </tr>
                 <tr>
-                    <td><a href="yacimiento_sa_canova_de_morell.html">Sa Canova de Morell</td>
+                    <td><a href="yacimiento_sa_canova_de_morell.html">Sa Canova de Morell</a></td>
                     <td>Artá</td>
                     <td>Talayótico</td>
                     <td>Talayot Circular</td>
                 </tr>
                 <tr>
-                    <td><a href="yacimiento_cova_del_camp_del_bisbe.html">Cova del Camp del Bisbe</td>
-                    <td>Sencelles</td>
-                    <td>Naviforme</td>
-                    <td>Cueva</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_castellot_de_almallutx.html">Castellot de Almallutx</td>
+                    <td><a href="yacimiento_castellot_de_almallutx.html">Castellot de Almallutx</a></td>
                     <td>Escorca</td>
                     <td>Talayótico</td>
                     <td>Plataforma</td>
                 </tr>
                 <tr>
-                    <td><a href="yacimiento_drassana.html">Drassana</td>
-                    <td>Palma</td>
-                    <td>Islámico</td>
-                    <td>Arco</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_son_espases.html">Son Espases</td>
-                    <td>Palma</td>
-                    <td>Romano</td>
-                    <td>Campamento</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_sa_ferradura.html">Sa Ferradura</td>
-                    <td>Manacor</td>
-                    <td>Naviforme</td>
-                    <td>Poblado</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_son_fornes.html">Son Fornés</td>
-                    <td>Montuiri</td>
-                    <td>Talayótico</td>
-                    <td>Poblado</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_sa_galera.html">Sa Galera</td>
-                    <td>Palma</td>
-                    <td>Púnico</td>
-                    <td>Asentamiento</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_hospitalet_vell.html">Hospitalet Vell</td>
-                    <td>Manacor</td>
-                    <td>Talayótico</td>
-                    <td>Poblado</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_son_matge.html">Son Matge</td>
-                    <td>Valldemossa</td>
-                    <td>Neolítico</td>
-                    <td>Abrigo</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_puig_de_sa_morisca.html">Puig de Sa Morisca</td>
-                    <td>Calviá</td>
-                    <td>Islámico</td>
-                    <td>Asentamiento</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_son_oleza.html">Son Oleza</td>
-                    <td>Valldemossa</td>
-                    <td>Naviforme</td>
-                    <td>Granja</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_son_pereto.html">Son Peretó</td>
-                    <td>Manacor</td>
-                    <td>Paleocristiano</td>
-                    <td>Asentamiento</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_can_patos.html">Can Patos</td>
-                    <td>Lloseta</td>
-                    <td>Talayótico</td>
-                    <td>Hipogeo</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_pollentia.html">Pollentia</td>
-                    <td>Alcudia</td>
-                    <td>Romano</td>
-                    <td>Ciudad</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_can_rius.html">Can Rius</td>
-                    <td>Palma</td>
-                    <td>Naviforme</td>
-                    <td>Cueva</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_es_turassot.html">Es Turassot</td>
-                    <td>Costitx</td>
-                    <td>Naviforme</td>
-                    <td>Poblado</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_ses_talaies_de_can_xim.html">Ses Talaies de Can Xim</td>
+                    <td><a href="yacimiento_ses_talaies_de_can_xim.html">Ses Talaies de Can Xim</a></td>
                     <td>Sencelles</td>
                     <td>Talayótico</td>
                     <td>Talayot Cuadrado</td>
                 </tr>
                 <tr>
-                    <td><a href="yacimiento_coves_son_sunyer.html">Coves Son Sunyer</td>
-                    <td>Palma</td>
-                    <td>Naviforme</td>
-                    <td>Necrópolis</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_ses_sinies.html">Ses Sinies</td>
-                    <td>Calvia</td>
-                    <td>Naviforme</td>
-                    <td>Nave</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_son_serra.html">Son Serra</td>
+                    <td><a href="yacimiento_son_serra.html">Son Serra</a></td>
                     <td>Muro</td>
                     <td>Talayótico</td>
                     <td>Poblado</td>
                 </tr>
                 <tr>
-                    <td><a href="yacimiento_pollentia_teatro.html">Pollentia Teatro</td>
-                    <td>Alcudia</td>
-                    <td>Romano</td>
-                    <td>Teatro</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_cala_pi.html">Cala Pi</td>
-                    <td>Llucmajor</td>
-                    <td>Dolménico</td>
-                    <td>Abrigo/Cueva</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_capocorb_vell.html">Capocorb Vell</td>
+                    <td><a href="yacimiento_capocorb_vell.html">Capocorb Vell</a></td>
                     <td>Llucmajor</td>
                     <td>Talayótico</td>
                     <td>Santuario</td>
                 </tr>
                 <tr>
-                    <td><a href="yacimiento_son_corro.html">Son Corró</td>
+                    <td><a href="yacimiento_son_corro.html">Son Corró</a></td>
                     <td>Costitx</td>
                     <td>Talayótico</td>
                     <td>Santuario</td>
                 </tr>
                 <tr>
-                    <td><a href="yacimiento_saigua_dolca.html">S'Aigua Dolça</td>
-                    <td>Artá</td>
-                    <td>Dolménico</td>
-                    <td>Dolmen</td>
-                </tr>
-                <tr>
-                    <td><a href="yacimiento_son_mas.html">Son Mas</td>
+                    <td><a href="yacimiento_son_mas.html">Son Mas</a></td>
                     <td>Valldemossa</td>
                     <td>Talayótico</td>
                     <td>Santuario</td>
                 </tr>
+                <tr>
+                    <td><a href="yacimiento_son_fornes.html">Son Fornés</a></td>
+                    <td>Montuiri</td>
+                    <td>Talayótico</td>
+                    <td>Poblado</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_can_patos.html">Can Patos</a></td>
+                    <td>Lloseta</td>
+                    <td>Talayótico</td>
+                    <td>Hipogeo</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_hospitalet_vell.html">Hospitalet Vell</a></td>
+                    <td>Manacor</td>
+                    <td>Talayótico</td>
+                    <td>Poblado</td>
+                </tr>
+            </table>
+            <h3><a id="naviforme">Naviforme	</a></h3>
+            <table class="yacimientos">
+                <!---->
+                <tr>
+                    <th>Nombre yacimiento</th>
+                    <th>Municipio</th>
+                    <th>Época</th>
+                    <th>Tipo de yacimiento</th>
+                </tr>
+                <!--yacimientos-->
+                <tr>
+                    <td><a href="yacimiento_cova_del_camp_del_bisbe.html">Cova del Camp del Bisbe</a></td>
+                    <td>Sencelles</td>
+                    <td>Naviforme</td>
+                    <td>Cueva</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_sa_ferradura.html">Sa Ferradura</a></td>
+                    <td>Manacor</td>
+                    <td>Naviforme</td>
+                    <td>Poblado</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_son_oleza.html">Son Oleza</a></td>
+                    <td>Valldemossa</td>
+                    <td>Naviforme</td>
+                    <td>Granja</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_can_rius.html">Can Rius</a></td>
+                    <td>Palma</td>
+                    <td>Naviforme</td>
+                    <td>Cueva</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_es_turassot.html">Es Turassot</a></td>
+                    <td>Costitx</td>
+                    <td>Naviforme</td>
+                    <td>Poblado</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_coves_son_sunyer.html">Coves Son Sunyer</a></td>
+                    <td>Palma</td>
+                    <td>Naviforme</td>
+                    <td>Necrópolis</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_ses_sinies.html">Ses Sinies</a></td>
+                    <td>Calvia</td>
+                    <td>Naviforme</td>
+                    <td>Nave</td>
+                </tr>
+            </table>
+            <h3><a id="romano">Romano</a></h3>
+            <table class="yacimientos">
+                <!---->
+                <tr>
+                    <th>Nombre yacimiento</th>
+                    <th>Municipio</th>
+                    <th>Época</th>
+                    <th>Tipo de yacimiento</th>
+                </tr>
+                <!--yacimientos-->
+                <tr>
+                    <td><a href="yacimiento_son_espases.html">Son Espases</a></td>
+                    <td>Palma</td>
+                    <td>Romano</td>
+                    <td>Campamento</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_pollentia.html">Pollentia</a></td>
+                    <td>Alcudia</td>
+                    <td>Romano</td>
+                    <td>Ciudad</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_pollentia_teatro.html">Pollentia Teatro</a></td>
+                    <td>Alcudia</td>
+                    <td>Romano</td>
+                    <td>Teatro</td>
+                </tr>
+            </table>
+            <h3><a id="dolmenico">Dolménico</a></h3>
+            <table class="yacimientos">
+                <!---->
+                <tr>
+                    <th>Nombre yacimiento</th>
+                    <th>Municipio</th>
+                    <th>Época</th>
+                    <th>Tipo de yacimiento</th>
+                </tr>
+                <!--yacimientos-->
+                <tr>
+                    <td><a href="yacimiento_cala_pi.html">Cala Pi</a></td>
+                    <td>Llucmajor</td>
+                    <td>Dolménico</td>
+                    <td>Abrigo/Cueva</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_saigua_dolca.html">S'Aigua Dolça</a></td>
+                    <td>Artá</td>
+                    <td>Dolménico</td>
+                    <td>Dolmen</td>
+                </tr>
+            </table>
+            <h3><a id="islamico">Islámico</a></h3>
+            <table class="yacimientos">
+                <!---->
+                <tr>
+                    <th>Nombre yacimiento</th>
+                    <th>Municipio</th>
+                    <th>Época</th>
+                    <th>Tipo de yacimiento</th>
+                </tr>
+                <!--yacimientos-->
+                <tr>
+                    <td><a href="yacimiento_almudaina.html">Almudaina</a></td>
+                    <td>Palma</td>
+                    <td>Islámico</td>
+                    <td>Puerta</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_drassana.html">Drassana</a></td>
+                    <td>Palma</td>
+                    <td>Islámico</td>
+                    <td>Arco</td>
+                </tr>
+                <tr>
+                    <td><a href="yacimiento_puig_de_sa_morisca.html">Puig de Sa Morisca</a></td>
+                    <td>Calviá</td>
+                    <td>Islámico</td>
+                    <td>Asentamiento</td>
+                </tr>
+            </table>
+            <h3><a id="punico">Púnico</a></h3>
+            <table class="yacimientos">
+                <!---->
+                <tr>
+                    <th>Nombre yacimiento</th>
+                    <th>Municipio</th>
+                    <th>Época</th>
+                    <th>Tipo de yacimiento</th>
+                </tr>
+                <!--yacimientos-->
+                <tr>
+                    <td><a href="yacimiento_sa_galera.html">Sa Galera</a></td>
+                    <td>Palma</td>
+                    <td>Púnico</td>
+                    <td>Asentamiento</td>
+                </tr>
+            </table>
+            <h3><a id="neolitico">Neolítico</a></h3>
+            <table class="yacimientos">
+                <!---->
+                <tr>
+                    <th>Nombre yacimiento</th>
+                    <th>Municipio</th>
+                    <th>Época</th>
+                    <th>Tipo de yacimiento</th>
+                </tr>
+                <!--yacimientos-->
+                <tr>
+                    <td><a href="yacimiento_son_matge.html">Son Matge</a></td>
+                    <td>Valldemossa</td>
+                    <td>Neolítico</td>
+                    <td>Abrigo</td>
+                </tr>
+            </table>
+            <h3><a id="paleocristiano">Paleocristiano</a></h3>
+            <table class="yacimientos">
+                <!---->
+                <tr>
+                    <th>Nombre yacimiento</th>
+                    <th>Municipio</th>
+                    <th>Época</th>
+                    <th>Tipo de yacimiento</th>
+                </tr>
+                <!--yacimientos-->
+                <tr>
+                    <td><a href="yacimiento_son_pereto.html">Son Peretó</a></td>
+                    <td>Manacor</td>
+                    <td>Paleocristiano</td>
+                    <td>Asentamiento</td>
+                </tr>
             </table>
         </article>
-
-        <!--Yacimientos por época-->
-
-        <!--Yacimientos por tipo-->
-
-        <!--Yacimientos por municipio-->
-        
     </section>
     <!--Footer estandar para todas las páginas-->
     <footer>
