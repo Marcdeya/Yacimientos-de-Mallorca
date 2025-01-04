@@ -4,6 +4,7 @@ a:hover{
 }
 
 #boton_arriba{
+    border-radius: 5px;
     position: fixed;
     bottom: 20px;
     right: 20px;
