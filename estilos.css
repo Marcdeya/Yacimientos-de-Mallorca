@@ -26,6 +26,15 @@ nav{
     margin: 5px;
 }
 
+#nav_yacimiento{
+    background-color:khaki;
+    font-size: 10px;
+}
+
+#nav_tipo_yacimiento{
+    background-color: aquamarine;
+}
+
 nav a{
     text-decoration: 5px;
     color:brown;
@@ -181,6 +190,7 @@ tr:nth-child(odd){
     body{
         max-width: 800px;
         margin-inline: auto;
+        
     }
 
     header{
