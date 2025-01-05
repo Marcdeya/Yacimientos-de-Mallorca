@@ -46,11 +46,19 @@ nav{
     background-color: aquamarine;
 }
 
+#nav_tipo_yacimiento a::before, #nav_tipo_yacimiento a::after{
+    content:"-"
+}
+
 nav a{
     text-decoration: 5px;
     color:brown;
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a::before, nav a::after{
+    content: "/";
 }
 
 /*Para el contenido de la pagina*/
@@ -228,6 +236,10 @@ tr:nth-child(odd){
 /*1920x1080*/
 @media screen and (min-width:1024px){
     /*Adaptacion de estructura general*/
+    nav{
+        flex-wrap: wrap;
+    }
+    
     body{
         max-width: 1024px;
         margin-inline: auto;
