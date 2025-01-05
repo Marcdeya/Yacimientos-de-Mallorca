@@ -189,6 +189,8 @@ tr:nth-child(odd){
     .img_yacimiento{
         max-width: 90%;
         max-height: 400px;
+        width: auto;
+        height: auto;
     }
     
     /*Adaptaciones de formulario*/
@@ -247,6 +249,8 @@ tr:nth-child(odd){
     .img_yacimiento{
         max-width: 90%;
         max-height: 400px;
+        width: auto;
+        height: auto;
     }
 }   
 
@@ -276,5 +280,7 @@ tr:nth-child(odd){
     .img_yacimiento{
         max-width: 90%;
         max-height: 600px;
+        width: auto;
+        height: auto;
     }
 }
