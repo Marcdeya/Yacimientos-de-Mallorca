@@ -177,6 +177,12 @@ tr:nth-child(odd){
         font-size: 0.75rem;
     }
 
+    #nav_yacimiento{
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 0.8rem;
+    }
+
     /*Adaptaciones de formulario*/
     form{
         width: 300px;
