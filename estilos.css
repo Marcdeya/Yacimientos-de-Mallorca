@@ -101,21 +101,24 @@ footer{
 table{
     border: 1px solid rgb(135, 135, 135);
     border-collapse: collapse;
+    margin: 5px;
 }
 
 /*Especificaciones de la tabla de yacimientos*/
 .yacimientos{
     background-color: rgb(189, 235, 255);
     text-align: center;
-    width: 90%;
+    width: 95%;
 }
 
 th{
     padding: 10px;
+    text-wrap: wrap;
 }
 
 td{
     padding: 5px;
+    text-wrap: wrap;
 }
 
 td:nth-child(1){
@@ -239,7 +242,6 @@ tr:nth-child(odd){
     .yacimientos{
         max-width: 800px;
         margin-inline: auto;
-        font-size: 1.2rem;
     }
 
     .img_yacimiento{
