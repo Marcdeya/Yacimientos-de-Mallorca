@@ -216,7 +216,6 @@ tr:nth-child(odd){
     body{
         max-width: 800px;
         margin-inline: auto;
-        
     }
 
     header{
@@ -229,6 +228,10 @@ tr:nth-child(odd){
 
     footer{
         margin-inline: auto;
+    }
+
+    section img{
+        width: 90%;
     }
 
     /*Adaptaciones especificas*/
@@ -254,6 +257,10 @@ tr:nth-child(odd){
     footer{
         max-width: 800px;
         margin-inline: auto;
+    }
+
+    section img{
+        width: 90%;
     }
 
     /*Adaptaciones especificas*/
