@@ -183,6 +183,11 @@ tr:nth-child(odd){
         font-size: 0.8rem;
     }
 
+    .img_yacimiento{
+        max-width: 90%;
+        max-height: 400px;
+    }
+    
     /*Adaptaciones de formulario*/
     form{
         width: 300px;
@@ -236,6 +241,11 @@ tr:nth-child(odd){
         margin-inline: auto;
         font-size: 1.2rem;
     }
+
+    .img_yacimiento{
+        max-width: 90%;
+        max-height: 400px;
+    }
 }   
 
 /*1920x1080*/
@@ -259,5 +269,10 @@ tr:nth-child(odd){
     .yacimientos{
         margin-inline: auto;
         font-size: 1.2rem;
+    }
+
+    .img_yacimiento{
+        max-width: 90%;
+        max-height: 600px;
     }
 }
