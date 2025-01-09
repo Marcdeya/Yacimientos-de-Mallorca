@@ -137,6 +137,18 @@ tr:nth-child(odd){
     background-color: rgb(211, 243, 243);
 }
 
+/*Galeria multimedia*/
+.multimedia{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.multimedia a{
+    max-width: 45%;
+    width: auto;
+    height: auto;
+}
 
 /*RESPONSIVE WEB DESIGN*/
 /*360x800*/
