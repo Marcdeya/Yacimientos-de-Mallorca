@@ -73,6 +73,11 @@ li{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+video{
+    max-width: 600px;
+    width: 100%;
+}
+
 /*Para los formularios*/
 form{
     font-weight: bold;
